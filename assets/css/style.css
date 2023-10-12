@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Gradient generated via https://cssgradient.io/*/
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(274deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 87%);
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    height: 1000px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+
+.card {
+    height: auto;
+}
+
+#left .card h2 {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#left .card form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+#left .card form input {
+    margin: 5px 10px;
+}
+
+#weather-today {
+    width: 70%;
+    margin: 10px;
+}
+
